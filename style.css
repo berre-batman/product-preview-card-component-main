@@ -3,13 +3,13 @@
 /* font-family: 'Fraunces', serif;
 font-family: 'Montserrat', sans-serif; */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Montserrat', sans-serif;
     background-color: hsl(30, 38%, 92%);
     font-size: 14px;
@@ -19,30 +19,30 @@ body{
     display: flex;    
 }
 
-.container{
+.container {
     margin: 100px;
-    padding:0 100px;
+    padding: 0 100px;
 }
 
-.kart{
+.kart {
     display: grid;
     max-width: 700px;
-    grid-template-columns:1fr 1fr;
-    background-color:#FFF ;
+    grid-template-columns: 1fr 1fr;
+    background-color: #FFF ;
     border-radius: 20px;
-    overflow:hidden;
+    overflow: hidden;
 }
 
-.resim img{
+.resim img {
     max-width: 100%;
     display: inherit;
 }
 
-.cart-icerik{
+.cart-icerik {
     padding: 40px;
 }
 
-h6.ilk-bas{
+h6.ilk-bas {
     text-transform: uppercase;
     letter-spacing: 3px;
     font-size: 12pt;
@@ -51,14 +51,14 @@ h6.ilk-bas{
     margin-bottom: 20px;
 }
 
-h1.ikinci-bas{
+h1.ikinci-bas {
     font-family: 'Fraunces', serif;
     color:hsl(212, 21%, 14%);
     font-size: 27pt;
     margin-bottom: 20px;
 }
 
-p.yazi{
+p.yazi {
     font-size: 12pt;
     color: hsl(228, 12%, 48%);
     font-family: 'Montserrat', sans-serif;
@@ -67,13 +67,13 @@ p.yazi{
     line-height: 1.5em; /*Satırlar arası mesafe*/
 }
 
-.fiyat{
+.fiyat {
     display: flex;  /*diğer fiyatı yanına getirir. */
     align-items: center;
     margin-bottom: 30px;
 }
 
-p.ilk-fiyat{
+p.ilk-fiyat {
     font-size: 25pt;
     color:hsl(158, 36%, 37%);
     font-family: 'Fraunces', serif;
@@ -81,30 +81,25 @@ p.ilk-fiyat{
     
 }
 
-p.ikinci-fiyat{
+p.ikinci-fiyat {
     color: hsl(228, 12%, 48%);
     text-decoration: line-through; /*Üsgtü çizili yazar.*/
     margin-left: 25px;
 }
-.card-b{
-    display: inherit;
-}
-button.card-b{
+
+.card-b {
    background-color:hsl(158, 36%, 37%);
    border: none;
    color: #FFF;
-   padding:15px;
-   padding-left: 80px;
-   padding-right: 80px;
+   padding: 15px;
    border-radius: 5px;
    font-size: 14px;
    font-weight: 700;
+   width: 100%;
    cursor: pointer;   /*Üstüne gelindiğinde click simgesi gösterir. */
-   display: inline;
-   font-family: 'Montserrat', sans-serif;
 }
 
-span.simge{
+span.simge {
     color: #FFF;
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
